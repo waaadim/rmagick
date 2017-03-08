@@ -648,7 +648,7 @@ Pixel_from_PixelPacket(const PixelPacket *pp)
  *   - @verbatim Pixel#hash @endverbatim
  *
  * Notes:
- *   - INT2FIX left-shifts 1 bit. Sacrifice 1 bit from the opacity attribute to
+ *   - INT2FIX right-shifts 1 bit. Sacrifice 1 bit from the opacity attribute to
  *     the FIXNUM_FLAG.
  *
  * @param self this object
